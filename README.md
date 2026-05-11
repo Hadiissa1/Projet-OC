@@ -13,8 +13,6 @@ PRO OC hadi/
 ├── graphbench_part1.py     # Partie 1 : heuristique simple (score v6)
 ├── graphbench_solver.py    # Partie 2 : FunSearch-inspired (portefeuille de scores)
 ├── benchmark.xlsx          # Benchmark de conjectures
-├── run_part1.bat           # Exécution Partie 1 (60s/conjecture)
-├── run_part2.bat           # Exécution Partie 2 (60s/conjecture)
 ├── results/                # Résultats CSV générés
 └── rapport/                # Rapport PDF (~10 pages)
 ```
