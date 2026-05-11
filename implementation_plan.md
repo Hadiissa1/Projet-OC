@@ -18,8 +18,8 @@ PRO OC /
 ├── run_part1.bat                # Script d'exécution Part 1
 ├── run_part2.bat                # Script d'exécution Part 2
 ├── results/
-│   ├── results_part1.csv        # Résultats Part 1
-│   └── results_part2.csv        # Résultats Part 2
+│   ├── test_part1.csv        # Résultats Part 1
+│   └── test_part2.csv        # Résultats Part 2
 └── rapport/
     └── rapport_graphbench.md    # Rapport (10 pages)
 ```
