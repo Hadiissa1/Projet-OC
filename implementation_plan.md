@@ -11,7 +11,7 @@ Créer un système complet de réfutation de conjectures en théorie des graphes
 ## Architecture générale
 
 ```
-PRO OC hadi/
+PRO OC /
 ├── graphbench_part1.py          # [EXISTING, to polish] Partie 1 - heuristique simple
 ├── graphbench_solver.py         # [EXISTING, to polish] Partie 2 - FunSearch-inspired  
 ├── benchmark.xlsx               # Données (fourni)
