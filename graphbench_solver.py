@@ -10,8 +10,6 @@ Objectif :
   2. micro-bonus contextuel,
   3. candidats spécialisés selon les invariants,
   4. restart intelligent en cas de stagnation.
-
-Auteur : Hadi ISSA - M1 MIAGE, Optimisation Combinatoire, 2025-2026
 """
 
 import argparse
