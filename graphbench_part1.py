@@ -2,7 +2,6 @@
 """
 GraphBench Challenge - Partie 1 : Heuristique simple
 Score v6 : marge normalisee + direction + structure + signal - complexite
-Auteur : Hadi ISSA  M1 MIAGE, Optimisation Combinatoire, 2025-2026
 """
 
 import argparse, ast, csv, math, os, random, time
