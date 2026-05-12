@@ -101,7 +101,7 @@ Résultat obtenu lors du run final :
 
 ```text
 Conjectures réfutées : 92 / 100
-Score total          : 1407.96 s
+Score total          : 1296.63  s
 Résultats            : results/test_part2.csv
 ```
 
@@ -112,7 +112,7 @@ Résultats            : results/test_part2.csv
 | Version | Conjectures réfutées | Taux de réussite | Score total |
 |---|---:|---:|---:|
 | Partie 1 — Heuristique simple | 87 / 100 | 87 % | 1649.06 s |
-| Partie 2 — FunSearch-inspired | 92 / 100 | 92 % | 1407.96 s |
+| Partie 2 — FunSearch-inspired | 92 / 100 | 92 % | 1296.63 s |
 
 La Partie 2 améliore donc la Partie 1 avec :
 
@@ -145,13 +145,13 @@ Placez `benchmark.xlsx` dans le même dossier que les scripts Python.
 ### Lancer la Partie 1
 
 ```bash
-python graphbench_part1.py --input benchmark.xlsx --output results/test_part1.csv --seconds 60 --max-order 18 --seed 42
+python graphbench_part1.py --input benchmark.xlsx --output results/test_part1.csv --seconds 60 --max-order 18 
 ```
 
 ### Lancer la Partie 2
 
 ```bash
-python graphbench_solver.py --input benchmark.xlsx --output results/test_part2.csv --seconds 60 --max-order 18 --seed 42
+python graphbench_solver.py --input benchmark.xlsx --output results/test_part2.csv --seconds 60 --max-order 18 
 ```
 
 ---
@@ -201,7 +201,7 @@ Exemple de sortie obtenue pour la Partie 2 :
 ```text
 ============================================================
 Conjectures refutees : 92 / 100
-Score total          : 1407.96 s
+Score total          : 1296.63 s
 Resultats            : results/test_part2.csv
 ============================================================
 ```
