@@ -117,7 +117,7 @@ Résultats            : results/test_part2.csv
 La Partie 2 améliore donc la Partie 1 avec :
 
 - 5 conjectures supplémentaires réfutées ;
-- une baisse du score total de 241.10 secondes ;
+-  une baisse du score total de 781.30 secondes ; ;
 - une meilleure exploration grâce aux générateurs spécialisés, aux mutations enrichies et au mécanisme de redémarrage.
 
 ---
