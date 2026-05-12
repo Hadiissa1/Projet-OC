@@ -38,7 +38,7 @@ PROJET-OC/
 
 ## Principe général
 
-Le programme lit le fichier `benchmark.xlsx`, reconstruit chaque conjecture, génère des graphes candidats, calcule les invariants de graphes nécessaires et vérifie automatiquement si l’inégalité associée à la conjecture est violée.
+Le programme lit le fichier `benchmark.xlsx`, reconstruit chaque conjecture, génère des graphes candidats, calcule les invariants nécessaires et vérifie automatiquement si l’inégalité associée à la conjecture est violée.
 
 Un contre-exemple est accepté uniquement si :
 
@@ -94,16 +94,18 @@ Cette version reprend le moteur de recherche de la Partie 1 et ajoute :
 Commande d’exécution :
 
 ```bash
-python graphbench_solver.py --input benchmark.xlsx --output results/test_part2.csv --seconds 60 --max-order 18 --seed 42
+python graphbench_solver.py --input benchmark.xlsx --output results/test_part2.csv --seconds 60 --max-order 18
 ```
 
 Résultat obtenu lors du run final :
 
 ```text
 Conjectures réfutées : 94 / 100
-Score total          : 867.76  s
+Score total          : 867.76 s
 Résultats            : results/test_part2.csv
 ```
+
+Remarque : ce résultat correspond au fichier livré `results/test_part2.csv`. Comme l’algorithme utilise des choix aléatoires, un nouveau run sans seed peut donner un score légèrement différent.
 
 ---
 
@@ -112,12 +114,12 @@ Résultats            : results/test_part2.csv
 | Version | Conjectures réfutées | Taux de réussite | Score total |
 |---|---:|---:|---:|
 | Partie 1 — Heuristique simple | 87 / 100 | 87 % | 1649.06 s |
-| Partie 2 — FunSearch-inspired | 94 / 100 | 94 % | 867.76  s |
+| Partie 2 — FunSearch-inspired | 94 / 100 | 94 % | 867.76 s |
 
 La Partie 2 améliore donc la Partie 1 avec :
 
-- 5 conjectures supplémentaires réfutées ;
--  une baisse du score total de 781.30 secondes ; ;
+- 7 conjectures supplémentaires réfutées ;
+- une baisse du score total de 781.30 secondes ;
 - une meilleure exploration grâce aux générateurs spécialisés, aux mutations enrichies et au mécanisme de redémarrage.
 
 ---
@@ -145,13 +147,13 @@ Placez `benchmark.xlsx` dans le même dossier que les scripts Python.
 ### Lancer la Partie 1
 
 ```bash
-python graphbench_part1.py --input benchmark.xlsx --output results/test_part1.csv --seconds 60 --max-order 18 
+python graphbench_part1.py --input benchmark.xlsx --output results/test_part1.csv --seconds 60 --max-order 18 --seed 42
 ```
 
 ### Lancer la Partie 2
 
 ```bash
-python graphbench_solver.py --input benchmark.xlsx --output results/test_part2.csv --seconds 60 --max-order 18 
+python graphbench_solver.py --input benchmark.xlsx --output results/test_part2.csv --seconds 60 --max-order 18
 ```
 
 ---
@@ -205,7 +207,6 @@ Score total          : 867.76 s
 Resultats            : results/test_part2.csv
 ============================================================
 ```
----
 
 ## Auteurs
 
