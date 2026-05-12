@@ -112,7 +112,7 @@ Résultats            : results/test_part2.csv
 | Version | Conjectures réfutées | Taux de réussite | Score total |
 |---|---:|---:|---:|
 | Partie 1 — Heuristique simple | 87 / 100 | 87 % | 1649.06 s |
-| Partie 2 — FunSearch-inspired | 92 / 100 | 92 % | 1296.63 s |
+| Partie 2 — FunSearch-inspired | 94 / 100 | 94 % | 867.76  s |
 
 La Partie 2 améliore donc la Partie 1 avec :
 
@@ -200,8 +200,8 @@ Exemple de sortie obtenue pour la Partie 2 :
 
 ```text
 ============================================================
-Conjectures refutees : 92 / 100
-Score total          : 1296.63 s
+Conjectures refutees : 94 / 100
+Score total          : 867.76 s
 Resultats            : results/test_part2.csv
 ============================================================
 ```
