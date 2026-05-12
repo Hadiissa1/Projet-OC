@@ -100,8 +100,8 @@ python graphbench_solver.py --input benchmark.xlsx --output results/test_part2.c
 Résultat obtenu lors du run final :
 
 ```text
-Conjectures réfutées : 92 / 100
-Score total          : 1296.63  s
+Conjectures réfutées : 94 / 100
+Score total          : 867.76  s
 Résultats            : results/test_part2.csv
 ```
 
